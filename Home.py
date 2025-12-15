@@ -36,6 +36,7 @@ for _, row in df.iterrows():
         "failed_login_attemps": row["failed_login_attemps"],
         "logged_in": row["logged_in"]
     }
+
 authenticator = Authenticate(
     dataUser,  # Les données des comptes
     "cookie name",         # Le nom du cookie, un str quelconque
